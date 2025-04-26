@@ -2,7 +2,7 @@
 
 This is a lightweight, interactive data app built using [Preswald](https://app.preswald.com/), a no-code/low-code platform for Python-backed UI applications.
 
-The app loads agricultural crop yield data (originally sourced from NetCDF `.nc4` scientific files) converted into `.csv`, and provides a dynamic, user-driven interface to explore crop distribution data.
+The app loads agricultural crop yield data from a prepared `.csv` dataset and provides a dynamic, user-driven interface to explore crop distribution across the globe.
 
 ---
 
@@ -22,7 +22,7 @@ The app loads agricultural crop yield data (originally sourced from NetCDF `.nc4
 
 - **Preswald SDK** (Python no-code/low-code app builder)
 - **Plotly Express** for visualization
-- **Xarray** and **Pandas** for `.nc4` ➔ `.csv` data processing
+- **Pandas** for data manipulation
 - **Interactive UI widgets** (slider, table, text)
 
 ---
@@ -31,7 +31,7 @@ The app loads agricultural crop yield data (originally sourced from NetCDF `.nc4
 
 ```bash
 data/
- ├── yield_1982_converted_filled.csv    # Final cleaned dataset
+ ├── yield_1982.csv    # Final cleaned dataset
 images/
  ├── favicon.ico                        # App favicon (optional)
  ├── logo.png                           # App logo (optional)
